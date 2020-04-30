@@ -44,8 +44,12 @@ public class PauseMenu : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("TODO: Make an actual quit function (that will work in the editor and out of it)");
-        Application.Quit();
+        #if UNITY_EDITOR
+            // Make quitting work in the editor, Application.Quit() only works in the build
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
 
     public void LoadDebugMenu()
