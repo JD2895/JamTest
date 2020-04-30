@@ -1,2 +1,2 @@
 Default README text
-	justin was NOT not here mafokkas
+	justin wasn't NOT not here mafokkas
