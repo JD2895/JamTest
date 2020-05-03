@@ -52,9 +52,4 @@ public class PauseMenu : MonoBehaviour
             Application.Quit();
         #endif
     }
-
-    public void LoadDebugMenu()
-    {
-        Debug.Log("TODO: Make a debug menu");
-    }
 }
