@@ -1658,7 +1658,6 @@ GameObject:
   - component: {fileID: 1328658541}
   - component: {fileID: 1328658544}
   - component: {fileID: 1328658543}
-  - component: {fileID: 1328658542}
   m_Layer: 5
   m_Name: DebugMenuPanel
   m_TagString: Untagged
@@ -1688,25 +1687,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 970, y: 465}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!95 &1328658542
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1328658540}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6bea4b8d38ecd9542a611251d9bdf129, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 2
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1328658543
 MonoBehaviour:
   m_ObjectHideFlags: 0
